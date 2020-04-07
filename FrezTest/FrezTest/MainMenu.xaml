@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="FrezTest.MainMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FrezTest"
+             mc:Ignorable="d" Height="50
+             " Width="540.73">
+    <Grid>
+        <Button x:Name="StartProcessing_btn" Content="Start" HorizontalAlignment="Left" Margin="188,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="PauseProcessing_btn" Content="Pause" HorizontalAlignment="Left" Margin="268,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="CerateNewLayout_btn" Content="New" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="ResetLayout_btn" Content="Reset" HorizontalAlignment="Left" Margin="348,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="ImportLayout_btn" Content="Import" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</UserControl>
